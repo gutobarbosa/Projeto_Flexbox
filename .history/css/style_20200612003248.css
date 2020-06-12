@@ -77,9 +77,9 @@ html,body{
     left: 50%;
 }
 .bullets-nav{
-    position: relative;
+    position: absolute;
     left: 50%;
-    top: 270px;
+    top: 500px;
     transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     z-index: 3;

@@ -7,7 +7,7 @@
 
 html,body{
     height: 100%;
-    width: 100%;
+    overflow-x: hidden;
     
 }
 
@@ -77,9 +77,9 @@ html,body{
     left: 50%;
 }
 .bullets-nav{
-    position: relative;
+    position: absolute;
     left: 50%;
-    top: 270px;
+    top: 100px;
     transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     z-index: 3;
@@ -98,7 +98,7 @@ html,body{
 
 }
 .text{
-width: 100%;
+width: 120%;
 height: 850px;
 background-color: coral;
 }

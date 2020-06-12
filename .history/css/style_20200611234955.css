@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.container-header{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+   
+}
+.icon-container{
+    width: 50%;
+}
+.icon-header{
+    width: 150px;
+    height: 150px;
+    background-color: brown;   
+}
+.menu-desktop{
+    color: white;
+    
+}
+.menu-desktop form {
+    display: block;
+}
