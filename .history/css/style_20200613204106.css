@@ -314,11 +314,8 @@ html,body{
 }
 .final-container{
     width: 100%;
-    height: 80px;
+    height: 150px;
     background-color: #01579b;
-    color: white;
-    text-align: center;
-    padding-top: 30px;
 }
 
 
