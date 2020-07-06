@@ -343,7 +343,6 @@ html,body{
    }
 
 .bars{
-    display: none;
     width: 48%;
     text-align: right;
     color: white;
@@ -399,7 +398,10 @@ html,body{
        
        
     }
-
+    .menu-mobile{
+        display: block;
+           
+    }
     .menu-desktop{
          display: none;
            

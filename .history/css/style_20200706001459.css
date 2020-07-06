@@ -341,16 +341,6 @@ html,body{
    .menu-mobile ul li:last-child{
    border: 0px solid;
    }
-
-.bars{
-    display: none;
-    width: 48%;
-    text-align: right;
-    color: white;
-    margin-right: 2% ;
-    font-size: 28px;
-
-}
 @media screen and (max-width: 1490px){
   
     .info-about > h1{
@@ -399,15 +389,14 @@ html,body{
        
        
     }
-
-    .menu-desktop{
-         display: none;
+        .menu-mobile{
+            display: block;
            
-    }
-    .bars{
-        display: block;
-    }
-
+        }
+        .menu-desktop{
+            display: none;
+           
+        }
     
 }
 @media screen and (max-width: 846px){

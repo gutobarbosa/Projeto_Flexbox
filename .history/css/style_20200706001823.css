@@ -343,7 +343,6 @@ html,body{
    }
 
 .bars{
-    display: none;
     width: 48%;
     text-align: right;
     color: white;
@@ -399,15 +398,14 @@ html,body{
        
        
     }
-
-    .menu-desktop{
-         display: none;
+        .menu-mobile{
+            display: block;
            
-    }
-    .bars{
-        display: block;
-    }
-
+        }
+        .menu-desktop{
+            display: none;
+           
+        }
     
 }
 @media screen and (max-width: 846px){

@@ -331,9 +331,9 @@ html,body{
 }
 .menu-mobile ul li{
  text-align: center;
+ margin: 0 auto;
  border-bottom: 1px solid #ccc;
  margin-bottom: 10px;
- color: white;
 }
 .menu-mobile ul li:first-child{
     margin-top: 10px;
@@ -341,16 +341,6 @@ html,body{
    .menu-mobile ul li:last-child{
    border: 0px solid;
    }
-
-.bars{
-    display: none;
-    width: 48%;
-    text-align: right;
-    color: white;
-    margin-right: 2% ;
-    font-size: 28px;
-
-}
 @media screen and (max-width: 1490px){
   
     .info-about > h1{
@@ -391,24 +381,6 @@ html,body{
        font-size: 13px;
     }
    
-}
-@media screen and (max-width: 1010px){
-    .container-header{
-
-        flex-wrap: wrap;
-       
-       
-    }
-
-    .menu-desktop{
-         display: none;
-           
-    }
-    .bars{
-        display: block;
-    }
-
-    
 }
 @media screen and (max-width: 846px){
     .container-about{
@@ -477,6 +449,21 @@ html,body{
         text-align: left;
     }
     
+.container-header{
+
+    flex-wrap: wrap;
+   
+   
+}
+    .menu-mobile{
+        display: block;
+       
+    }
+    .menu-desktop{
+        display: none;
+       
+    }
+
 
 }
 

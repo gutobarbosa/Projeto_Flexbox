@@ -168,6 +168,7 @@ html,body{
     background-image: url("../image/parallax2.jpg");
     background-attachment: fixed;
     width: 100%;
+    height: 300px;
     color: white;
 }
 
@@ -198,7 +199,6 @@ html,body{
 
 .list-of-services > h1{
     text-align: center;
-    color: #4dd0e1;
     
 }
 
@@ -277,7 +277,9 @@ html,body{
 .footer-container{
     display: flex;
     flex-wrap: nowrap;
+    height: 200px;
     width: 100%;
+    height: 300px;
     background-color: #0277bd ;
 }
 
@@ -317,40 +319,7 @@ html,body{
     text-align: center;
     padding-top: 30px;
 }
-.menu-mobile{
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: 130px;
-    background-color: #75ccf5;
-    top: 200px;
-    z-index: 1;
-    text-align: center;
-    left: 0px;
-    
-}
-.menu-mobile ul li{
- text-align: center;
- border-bottom: 1px solid #ccc;
- margin-bottom: 10px;
- color: white;
-}
-.menu-mobile ul li:first-child{
-    margin-top: 10px;
-   }
-   .menu-mobile ul li:last-child{
-   border: 0px solid;
-   }
 
-.bars{
-    display: none;
-    width: 48%;
-    text-align: right;
-    color: white;
-    margin-right: 2% ;
-    font-size: 28px;
-
-}
 @media screen and (max-width: 1490px){
   
     .info-about > h1{
@@ -374,41 +343,6 @@ html,body{
     .info-about > p{
         font-size: 14px;
     }
-    .list-of-services > h1 {
-        padding: 10px 10px;
-        font-size: 20px;
-    }
-    .list-of-services > p {
-        padding: 10px 10px;
-        font-size: 13px;
-    }
-    
-    .parallax2 > h1{
-        font-size: 20px;
-    }
-    
-    .parallax2 > p {
-       font-size: 13px;
-    }
-   
-}
-@media screen and (max-width: 1010px){
-    .container-header{
-
-        flex-wrap: wrap;
-       
-       
-    }
-
-    .menu-desktop{
-         display: none;
-           
-    }
-    .bars{
-        display: block;
-    }
-
-    
 }
 @media screen and (max-width: 846px){
     .container-about{
@@ -416,7 +350,6 @@ html,body{
         
     }
     .info-about{
-        margin-top: 30px;
         width: 100%;
         border-left: 0px solid #ccc;
     }
@@ -442,42 +375,7 @@ html,body{
     .btn{
         margin: 10px auto;
     }
-    .parallax2{
-        background-image: url("../image/parallax2.jpg");
-        background-attachment: fixed;
-        width: 100%;
-        color: white;
-    }
     
-    
-    .parallax2 > p {
-        
-        padding: 50px 0px;
-    }
-    .information-container{
-        display: none;
-    }
- 
-    .form-contact{
-        margin: 0 auto;
-    
-    }
-
-    /* daqui pra baixo */ 
-    .footer-container{
-        flex-wrap: wrap;
-       
-    }
-    
-    .social-medias{
-        width: 100%; 
-    }
-    
-    .utilits-links{
-        text-align: left;
-    }
-    
-
 }
 
 

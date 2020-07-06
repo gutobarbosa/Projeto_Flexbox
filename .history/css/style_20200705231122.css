@@ -151,6 +151,7 @@ html,body{
     background-image: url("../image/parallax.jpg");
     background-attachment: fixed;
     width: 100%;
+    height: 300px;
     color: white;
 }
 
@@ -161,13 +162,14 @@ html,body{
 
 .parallax > p {
     text-align: center;
-    padding: 50px 100px;
+    padding: 50px 200px;
 }
 
 .parallax2{
     background-image: url("../image/parallax2.jpg");
     background-attachment: fixed;
     width: 100%;
+    height: 300px;
     color: white;
 }
 
@@ -183,11 +185,14 @@ html,body{
 .services-container{
     display: flex;
     flex-wrap: nowrap;
-    width: 100%; 
+    width: 100%;
+    
+    
+    
 }
-
 .list-of-services{
     width: 33.3%;
+    height: 400px;
     border-left: 1px solid #ccc;
     margin: 20px;
 }
@@ -198,7 +203,6 @@ html,body{
 
 .list-of-services > h1{
     text-align: center;
-    color: #4dd0e1;
     
 }
 
@@ -207,8 +211,8 @@ html,body{
 }
 
 .btn{
-   width: 100%;
-   max-width: 200px;
+    width: 80px;
+    height: 30px;
     background-color: #4dd0e1;
     border: 2px solid #ccc;
     border-radius: 20px;
@@ -217,7 +221,6 @@ html,body{
     cursor: pointer;
     font-weight: bold;
     color: white;
-    display: block;
    
 }
 
@@ -277,7 +280,9 @@ html,body{
 .footer-container{
     display: flex;
     flex-wrap: nowrap;
+    height: 200px;
     width: 100%;
+    height: 300px;
     background-color: #0277bd ;
 }
 
@@ -317,40 +322,7 @@ html,body{
     text-align: center;
     padding-top: 30px;
 }
-.menu-mobile{
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: 130px;
-    background-color: #75ccf5;
-    top: 200px;
-    z-index: 1;
-    text-align: center;
-    left: 0px;
-    
-}
-.menu-mobile ul li{
- text-align: center;
- border-bottom: 1px solid #ccc;
- margin-bottom: 10px;
- color: white;
-}
-.menu-mobile ul li:first-child{
-    margin-top: 10px;
-   }
-   .menu-mobile ul li:last-child{
-   border: 0px solid;
-   }
 
-.bars{
-    display: none;
-    width: 48%;
-    text-align: right;
-    color: white;
-    margin-right: 2% ;
-    font-size: 28px;
-
-}
 @media screen and (max-width: 1490px){
   
     .info-about > h1{
@@ -360,124 +332,38 @@ html,body{
     }
     
     .info-about > p{
-        font-size: 16px;
+        text-align: center;
+        margin: 20px;
+        font-size: 15px;
+        color: red;
+
     }
 }
 
 @media screen and (max-width: 1330px){
   
     .info-about > h1{
+        text-align: center;
+        color: #4dd0e1;
         font-size: 18px;
         
     }
     
     .info-about > p{
-        font-size: 14px;
-    }
-    .list-of-services > h1 {
-        padding: 10px 10px;
-        font-size: 20px;
-    }
-    .list-of-services > p {
-        padding: 10px 10px;
-        font-size: 13px;
-    }
-    
-    .parallax2 > h1{
-        font-size: 20px;
-    }
-    
-    .parallax2 > p {
-       font-size: 13px;
-    }
-   
-}
-@media screen and (max-width: 1010px){
-    .container-header{
+        text-align: center;
+        margin: 20px;
+        font-size: 10px;
+        color: red;
 
-        flex-wrap: wrap;
-       
-       
     }
-
-    .menu-desktop{
-         display: none;
-           
-    }
-    .bars{
-        display: block;
-    }
-
-    
 }
 @media screen and (max-width: 846px){
-    .container-about{
-        flex-wrap: wrap;
-        
-    }
+  
     .info-about{
-        margin-top: 30px;
         width: 100%;
-        border-left: 0px solid #ccc;
+        margin-left: 0px;
+        margin-right: 0px;
     }
-    
-    .parallax > p {
-        text-align: center;
-        padding: 50px 20px;
-        font-size: 13px;
-    }
-    .services-container{
-        flex-wrap: wrap;
-    }
-    .list-of-services{
-        width: 100%;
-        border-left: 0px solid #ccc;
-    }
-
- 
-    
-    .list-of-services > p {
-        padding: 10px 10px;
-    }
-    .btn{
-        margin: 10px auto;
-    }
-    .parallax2{
-        background-image: url("../image/parallax2.jpg");
-        background-attachment: fixed;
-        width: 100%;
-        color: white;
-    }
-    
-    
-    .parallax2 > p {
-        
-        padding: 50px 0px;
-    }
-    .information-container{
-        display: none;
-    }
- 
-    .form-contact{
-        margin: 0 auto;
-    
-    }
-
-    /* daqui pra baixo */ 
-    .footer-container{
-        flex-wrap: wrap;
-       
-    }
-    
-    .social-medias{
-        width: 100%; 
-    }
-    
-    .utilits-links{
-        text-align: left;
-    }
-    
-
 }
 
 

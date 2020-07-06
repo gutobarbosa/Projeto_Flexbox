@@ -52,7 +52,7 @@ $(function(){
             $(this).css('background-color','#069');
         });
     }
-	$('.bars').click(function(event){
+	$('.bars').click(function(){
         $('.menu-mobile').slideToggle();
         event.stopPropagation();
     })

@@ -343,13 +343,10 @@ html,body{
    }
 
 .bars{
-    display: none;
-    width: 48%;
+    width: 50%;
     text-align: right;
     color: white;
-    margin-right: 2% ;
-    font-size: 28px;
-
+    margin-right: 15px ;
 }
 @media screen and (max-width: 1490px){
   
@@ -399,15 +396,14 @@ html,body{
        
        
     }
-
-    .menu-desktop{
-         display: none;
+        .menu-mobile{
+            display: block;
            
-    }
-    .bars{
-        display: block;
-    }
-
+        }
+        .menu-desktop{
+            display: none;
+           
+        }
     
 }
 @media screen and (max-width: 846px){
