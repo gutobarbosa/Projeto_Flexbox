@@ -67,12 +67,6 @@ html,body{
     list-style-type: none;
     cursor: pointer;
 
-    
-}
-.menu-desktop ul li a{
-   text-decoration: none;
-   color: white;
-
 }
 
 .first-slider{
@@ -344,10 +338,6 @@ html,body{
  color: white;
  cursor: pointer;
 }
-.menu-mobile ul li a {
-text-decoration: none;
-color: white;
-   }
 .menu-desktop ul li:hover{
     text-decoration: underline;
 }
